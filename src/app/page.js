@@ -1,4 +1,4 @@
-import Tti from "./components/Tti";
+import Imagetotext from "./components/Imagetotext";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Features from "./components/Features";
@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar />
       {/* <UserInfo/> */}
-      <Tti />
+      <Imagetotext />
       <Pricing/>
       <Features/>
       <Footer />
