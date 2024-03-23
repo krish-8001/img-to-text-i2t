@@ -21,7 +21,6 @@ import { signOut, useSession } from "next-auth/react";
 
 const App = () => {
   const { status, data: session } = useSession();
-  console.log("App ~ status:", status)
 
   const [isLoading, setIsLoading] = useState(false);
   const [image, setImage] = useState('');
@@ -83,7 +82,7 @@ const App = () => {
     }
   }, [status,userData]);
 
-  const { getRootProps, getInputProps } = useDropzone({ onDrop, accept: 'image/*' });
+  const { getRootProps, getInputProps } = useDropzone({ onDrop});
 
   const handleImageChange = (file) => {
     setImage(URL.createObjectURL(file));
