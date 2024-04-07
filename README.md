@@ -5,7 +5,7 @@ An image-to-text conversion tool is a web application that allows users to conve
 
 ## Web Link
 
-https://imgtotext-converter.onrender.com/
+https://image-to-text-delta.vercel.app/
 
 # Hi, I'm Krish! 👋
 
