@@ -26,6 +26,7 @@ import {
 
 } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import Pricing from "./Pricing";
 
  const FeaturesComponent = () => {
   const containerStyle = {
@@ -123,15 +124,11 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
   return (
     <>
 
-      <div style={{ backgroundColor: 'white' }}>
-        <Container maxWidth="md" mt={6}      id="Features"
+     {/* <div style={{ backgroundColor: 'white' }}> */}
+        <Container maxWidth="md"    id="Features"
 >
           <Box textAlign="center" mb={4}>
-            <Typography variant="h3"
-              align="center"
-              data-aos-duration="500"
-              data-aos="fade-down"
-              data-aos-delay="0" mt={6}>Quick Tutorial</Typography>
+            <Typography component="h2" variant="h3" mt={8}>Quick Tutorial</Typography>
           </Box>
         
           <Grid container spacing={2}>
@@ -165,11 +162,11 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
            
           </Grid>
         </Container>
-      </div>
+      {/* </div> */}
       <Box
  id="Features"
        sx={{
-        pt: { xs: 4, sm: 12 },
+        pt: { xs: 2, sm: 6 },
         pb: { xs: 2, sm: 4 },
       }}
     >
@@ -227,13 +224,15 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
         </Grid>
       </Container>
     </Box>
+    <Pricing/>
+
       <Container maxWidth="md"     id="FAQs"
  >
-        <Typography variant="h3"
+        <Typography  variant="h3"
           align="center"
           data-aos-duration="500"
           data-aos="fade-down"
-          data-aos-delay="0" mt={3}>
+          data-aos-delay="0">
           FAQ
         </Typography>
         <Grid container spacing={2} mt={3}>

@@ -76,8 +76,12 @@ const Navbar = () => {
                 flexGrow: 1,
                 ml: { xs: 2, md: 0 },
                 fontWeight: "bold",
-                textTransform: "none",
-                fontFamily: "YourFontName",
+                textDecoration: 'none',
+                '&:hover': {
+                  cursor: 'default', 
+
+                },
+                textTransform: 'none',
               }}
               onClick={() =>{ router.push("/")}}
 
@@ -93,11 +97,13 @@ const Navbar = () => {
               sx={{
                 my: 1,
                 mx: 1.5,
-                textDecoration: "none",
-                "&:hover": {
-                  color: "#5095f8",
+                textDecoration: 'none',
+                '&:hover': {
+                  color: '#5095f8',
+                  cursor: 'default', 
+
                 },
-                textTransform: "none", 
+                textTransform: 'none',
               }}
             >
               Home
@@ -110,11 +116,13 @@ const Navbar = () => {
               sx={{
                 my: 1,
                 mx: 1.5,
-                textDecoration: "none",
-                "&:hover": {
-                  color: "#5095f8",
+                textDecoration: 'none',
+                '&:hover': {
+                  color: '#5095f8',
+                  cursor: 'default', 
+
                 },
-                textTransform: "none", 
+                textTransform: 'none',
               }}
             >
               Features
@@ -127,11 +135,13 @@ const Navbar = () => {
               sx={{
                 my: 1,
                 mx: 1.5,
-                textDecoration: "none",
-                "&:hover": {
-                  color: "#5095f8",
+                textDecoration: 'none',
+                '&:hover': {
+                  color: '#5095f8',
+                  cursor: 'default', 
+
                 },
-                textTransform: "none", 
+                textTransform: 'none',
               }}
             >
               Pricing
@@ -143,11 +153,13 @@ const Navbar = () => {
               sx={{
                 my: 1,
                 mx: 1.5,
-                textDecoration: "none",
-                "&:hover": {
-                  color: "#5095f8",
+                textDecoration: 'none',
+                '&:hover': {
+                  color: '#5095f8',
+                  cursor: 'default', 
+
                 },
-                textTransform: "none", 
+                textTransform: 'none',
               }}
             >
               FAQs

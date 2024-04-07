@@ -98,7 +98,7 @@ export default function Pricing() {
     <Container
       id="pricing"
       sx={{
-        pt: { xs: 4, sm: 12 },
+        pt: { xs: 2, sm: 6 },
         pb: { xs: 6, sm: 12 },
         position: 'relative',
         display: 'flex',
@@ -115,7 +115,7 @@ export default function Pricing() {
           textAlign: { sm: 'left', md: 'center' },
         }}
       >
-        <Typography component="h2" variant="h3" color="text.primary">
+        <Typography component="h2" variant="h3" >
           Pricing
         </Typography>
         <Typography variant="body1" color="text.secondary">
